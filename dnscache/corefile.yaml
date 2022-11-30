@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata: # kpt-merge: example/coredns-caching
   name: coredns-caching
-  namespace: example
+  namespace: dnscache
   annotations:
     internal.kpt.dev/upstream-identifier: '|ConfigMap|example|coredns-caching'
 data:

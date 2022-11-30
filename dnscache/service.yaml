@@ -8,7 +8,7 @@ metadata: # kpt-merge: example/coredns-caching
     internal.kpt.dev/upstream-identifier: '|Service|example|coredns-caching'
   labels:
     package-instance: coredns-caching
-  namespace: example
+  namespace: dnscache
 spec:
   selector:
     package-instance: coredns-caching
